@@ -27,7 +27,7 @@ aave-credit-score/
 
 ---
 
-## ⚙️ Engineered Features
+## Engineered Features
 
 | Feature                  | Description                             |
 |--------------------------|-----------------------------------------|
