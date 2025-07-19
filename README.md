@@ -4,7 +4,7 @@ This project generates a credit score for each wallet interacting with the Aave 
 
 ---
 
-## 🚀 Objective
+## Objective
 
 - Behavior-based credit scoring model for DeFi wallets
 - Uses Aave V2 transaction-level actions (deposit, borrow, repay, etc.)
@@ -12,7 +12,7 @@ This project generates a credit score for each wallet interacting with the Aave 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 aave-credit-score/
 ├── data/
@@ -43,7 +43,7 @@ aave-credit-score/
 
 ---
 
-## 🧮 Scoring Logic
+## Scoring Logic
 
 The score is a weighted sum of normalized features:
 
@@ -59,7 +59,7 @@ Final scores are scaled to a range of 0–1000.
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 Step 1: Place the Aave transaction JSON file at: data/user_transactions.json
 
@@ -68,14 +68,14 @@ Step 2: Run the script: python src/score_generator.py
 
 ---
 
-## 📊 Output
+## Output
 
 - `output/wallet_scores.csv`: Wallets with assigned credit scores  
 - `output/score_distribution.png`: Histogram of credit scores
 
 ---
 
-## 📄 Deliverables
+## Deliverables
 
 - `README.md` — method, logic, architecture  
 - `analysis.md` — wallet behavior insights, score trends
